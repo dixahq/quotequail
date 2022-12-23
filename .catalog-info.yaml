@@ -2,11 +2,13 @@ apiVersion: backstage.io/v1beta1
 kind: Component
 metadata:
   name: quotequail
-  description: A library that identifies quoted text in email messages.
+  description: Fork of a library that identifies quoted text in email messages.
   annotations:
     github.com/project-slug: dixahq/quotequail
   tags:
     - python
+    - fork
+    - public
 spec:
   type: library
   lifecycle: production
